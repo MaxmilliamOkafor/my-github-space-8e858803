@@ -1,8 +1,8 @@
 // ATS Tailored CV & Cover Letter - Popup Script
 // Uses same approach as chrome-extension for reliable job detection
 
-const SUPABASE_URL = 'https://wntpldomgjutwufphnpg.supabase.co';
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndudHBsZG9tZ2p1dHd1ZnBobnBnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjY2MDY0NDAsImV4cCI6MjA4MjE4MjQ0MH0.vOXBQIg6jghsAby2MA1GfE-MNTRZ9Ny1W2kfUHGUzNM';
+const SUPABASE_URL = 'https://rnqzikeikntupbpucwsc.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJucXppa2Vpa250dXBicHVjd3NjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjcyMjI5OTksImV4cCI6MjA4Mjc5ODk5OX0.IPAEiMqsbzvJF2RF5FLcjjMs1BR9zqjud5NlpXG9Vag';
 
 // Supported ATS platforms (excluding Lever and Ashby)
 const SUPPORTED_HOSTS = [
