@@ -14,7 +14,141 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      api_usage: {
+        Row: {
+          created_at: string
+          function_name: string
+          id: string
+          tokens_used: number | null
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          function_name: string
+          id?: string
+          tokens_used?: number | null
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          function_name?: string
+          id?: string
+          tokens_used?: number | null
+          user_id?: string
+        }
+        Relationships: []
+      }
+      profiles: {
+        Row: {
+          achievements: Json | null
+          address: string | null
+          ats_answers: Json | null
+          ats_strategy: string | null
+          certifications: string[] | null
+          city: string | null
+          country: string | null
+          cover_letter: string | null
+          created_at: string
+          current_salary: string | null
+          cv_file_name: string | null
+          cv_file_path: string | null
+          cv_uploaded_at: string | null
+          education: Json | null
+          email: string | null
+          expected_salary: string | null
+          first_name: string | null
+          github: string | null
+          highest_education: string | null
+          id: string
+          languages: Json | null
+          last_name: string | null
+          linkedin: string | null
+          notice_period: string | null
+          openai_api_key: string | null
+          phone: string | null
+          portfolio: string | null
+          skills: Json | null
+          state: string | null
+          total_experience: string | null
+          updated_at: string
+          user_id: string
+          work_experience: Json | null
+          zip_code: string | null
+        }
+        Insert: {
+          achievements?: Json | null
+          address?: string | null
+          ats_answers?: Json | null
+          ats_strategy?: string | null
+          certifications?: string[] | null
+          city?: string | null
+          country?: string | null
+          cover_letter?: string | null
+          created_at?: string
+          current_salary?: string | null
+          cv_file_name?: string | null
+          cv_file_path?: string | null
+          cv_uploaded_at?: string | null
+          education?: Json | null
+          email?: string | null
+          expected_salary?: string | null
+          first_name?: string | null
+          github?: string | null
+          highest_education?: string | null
+          id?: string
+          languages?: Json | null
+          last_name?: string | null
+          linkedin?: string | null
+          notice_period?: string | null
+          openai_api_key?: string | null
+          phone?: string | null
+          portfolio?: string | null
+          skills?: Json | null
+          state?: string | null
+          total_experience?: string | null
+          updated_at?: string
+          user_id: string
+          work_experience?: Json | null
+          zip_code?: string | null
+        }
+        Update: {
+          achievements?: Json | null
+          address?: string | null
+          ats_answers?: Json | null
+          ats_strategy?: string | null
+          certifications?: string[] | null
+          city?: string | null
+          country?: string | null
+          cover_letter?: string | null
+          created_at?: string
+          current_salary?: string | null
+          cv_file_name?: string | null
+          cv_file_path?: string | null
+          cv_uploaded_at?: string | null
+          education?: Json | null
+          email?: string | null
+          expected_salary?: string | null
+          first_name?: string | null
+          github?: string | null
+          highest_education?: string | null
+          id?: string
+          languages?: Json | null
+          last_name?: string | null
+          linkedin?: string | null
+          notice_period?: string | null
+          openai_api_key?: string | null
+          phone?: string | null
+          portfolio?: string | null
+          skills?: Json | null
+          state?: string | null
+          total_experience?: string | null
+          updated_at?: string
+          user_id?: string
+          work_experience?: Json | null
+          zip_code?: string | null
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
